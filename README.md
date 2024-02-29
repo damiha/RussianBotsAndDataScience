@@ -22,4 +22,4 @@ My results are based on 2122 potential bot comments (emphasis on the word **pote
 
 **NOTE**: Take the results with a big grain of salt since my naive method doesn't consider context. For example, the sentence "Biden is not competent" would list "competent" as a word that is super close to "Biden" and that, of course, is misleading.
 
-Do whatever you want with the findings and feel free to apply some more sophisticated techniques on your own :)# RussianBotsHypothesis
+Do whatever you want with the findings and feel free to apply some more sophisticated techniques on your own :)

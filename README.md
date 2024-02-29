@@ -18,6 +18,7 @@ Guess I'm not alone with that weird suspicion. But there's only one way to find 
 Since I got the idea literally three hours ago and I am not an expert in NLP in general and sentiment classification in particular, and don't have access to a Transformer that could summarize the texts for me (maybe the content policies of GPT4 are also not that pleased if I ask them about bots and the war), I just used `spacy` (some NLP python package) to extract all adjectives and then computed the mean distance to the word in question (the target word could be "Russia" or "Ukraine" etc.)
 
 The source data was collected using `comment-extraction.ipynb`. The urls of the Youtube videos and the resulting json files are available as well. The method and the results can be found in `data-analysis.iypnb`.
+My results are based on 2122 potential bot comments (emphasis on the word **potential**, not everyone with their year of birth at the end of their username is a Russian bot)
 
 **NOTE**: Take the results with a big grain of salt since my naive method doesn't consider context. For example, the sentence "Biden is not competent" would list "competent" as a word that is super close to "Biden" and that, of course, is misleading.
 
